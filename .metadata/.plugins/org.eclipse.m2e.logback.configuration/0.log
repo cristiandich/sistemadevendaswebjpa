@@ -1,0 +1,15 @@
+2019-10-09 21:22:37,807 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-10-09 21:25:06,830 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.infocristian.systemvw:systemvw:0.0.1-SNAPSHOT @ C:\svww\systemvw\pom.xml.
+2019-10-09 21:25:17,523 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /systemvw/src/main/java
+2019-10-09 21:25:17,524 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /systemvw/src/main/resources
+2019-10-09 21:25:17,542 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /systemvw/src/main/resources
+2019-10-09 21:25:17,580 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /systemvw/src/test/java
+2019-10-09 21:25:21,119 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 26 sec
+2019-10-09 21:25:21,124 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-10-09 21:25:26,616 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.infocristian.systemvw:systemvw:0.0.1-SNAPSHOT @ C:\svww\systemvw\pom.xml.
+2019-10-09 21:25:31,108 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /systemvw/src/main/java
+2019-10-09 21:25:31,110 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /systemvw/src/main/resources
+2019-10-09 21:25:31,116 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /systemvw/src/main/resources
+2019-10-09 21:25:31,126 [Worker-13: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /systemvw/src/test/java
+2019-10-09 21:25:31,954 [Worker-13: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 10 sec
+2019-10-09 21:25:54,821 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
