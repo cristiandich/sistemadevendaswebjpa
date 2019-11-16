@@ -8,6 +8,8 @@ import org.springframework.stereotype.Service;
 import com.infocristian.systemvw.domain.Categoria;
 import com.infocristian.systemvw.repositories.CategoriaRepository;
 
+import javassist.tools.rmi.ObjectNotFoundException;
+
 @Service
 public class CategoriaService {
 	
@@ -15,11 +17,18 @@ public class CategoriaService {
 	private CategoriaRepository repor;
 	
 
-	public Categoria Buscar(Integer id) {
+	public Categoria Buscar(Integer id) throws Exception {
 		
 		Optional<Categoria> obj = repor.findById(id);
+		return obj.orElseThrow(() -> new ObjectNotFoundException("não encontrado O Produto Procurado"+ Categoria.class.getCanonicalName()));
 		
-		return obj.orElse(null);
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
